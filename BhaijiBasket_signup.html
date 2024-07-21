@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up - BhaijiBasket</title>
+    <link rel = "icon" href = "BBlogo.png">
+</head>
+
+<style>
+    body{
+    background-image:url("signupimage.jpeg");
+    }
+
+    img#logo{
+    position:absolute;
+    width:300px;
+    }
+
+    ::placeholder{
+        color:peachpuff;
+    }
+
+    input#ip1{
+        position:absolute;
+        right:600px;
+        width:400px;
+        height:40px;
+        bottom:600px;
+        font-family:"Agency FB";
+        font-size:40px;
+        text-align:center;
+        color:white;
+        background-color:transparent;
+        border-style:none none solid none;
+        border-color:peachpuff;
+        //border-radius:100px;
+    }
+    input#ip2{
+        position:absolute;
+        right:600px;
+        width:400px;
+        height:40px;
+        bottom:500px;
+        font-family:"Agency FB";
+        font-size:40px;
+        text-align:center;
+        color:white;
+        background-color:transparent;
+        border-style:none none solid none;
+        border-color:peachpuff;
+        //border-radius:100px;
+    }
+    input#ip3{
+        position:absolute;
+        right:600px;
+        width:400px;
+        height:40px;
+        bottom:400px;
+        font-family:"Agency FB";
+        font-size:40px;
+        text-align:center;
+        color:white;
+        background-color:transparent;
+        border-style:none none solid none;
+        border-color:peachpuff;
+        //border-radius:100px;
+    }
+    input#ip4{
+        position:absolute;
+        right:700px;
+        width:200px;
+        height:50px;
+        bottom:200px;
+        font-family:"Agency FB";
+        font-size:40px;
+        text-align:center;
+        color:peachpuff;
+        background-color:transparent;
+        border-style:none;
+        border-color:peachpuff;
+        border-radius:20px;
+    }
+
+    input#ip4:hover{
+    color:mocassin;
+    background-color:sienna;
+    border-style:solid;
+    transition:1s;
+    height:50px;
+    width:250px;
+    right:675px;
+    }
+
+    input#ip5{
+        position:absolute;
+        right:600px;
+        width:400px;
+        height:40px;
+        bottom:300px;
+        font-family:"Agency FB";
+        font-size:40px;
+        text-align:center;
+        color:white;
+        background-color:transparent;
+        border-style:none none solid none;
+        border-color:peachpuff;
+        //border-radius:100px;
+    }
+</style>
+
+<body>
+
+<form action = "/sign_up" method = "post">
+    <input id = "ip1" name = "name" type = "text" placeholder = "NAME">
+    <input id = "ip2" name = "email" type = "text" placeholder="EMAIL">
+    <input id = "ip3" name = "password"type = "password" placeholder="PASSWORD">
+    <input id = "ip4" type = "submit" value = "SIGN UP">
+    <input id = "ip5" name = "phone" type = "text" placeholder = "PHONE NO.">
+</form>
+
+<img id = "logo" src = "BBlogo.png" onclick = "window.location.href = 'http://localhost:8888';">
+
+
+</body>
+</html>

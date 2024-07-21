@@ -1,0 +1,269 @@
+<html>
+    <head>
+        <title>Snacks - BhaijiBasket</title>
+        <link rel = "icon" href = "/subcat/BBlogo.png">
+    </head>
+
+    <style type = "text/css">
+        body{
+        background-color:beige;
+        background-image:url("/subcat/pics/wood4.jpg");
+        }
+        p#detail{
+        background-color:rgb(218, 116, 69);
+        font-family:"Agency FB";
+        text-align:center;
+        border-radius:15px ;
+        border: solid;
+        }
+        #btn{
+            border-style: solid;
+            text-align: center;
+            color:bisque;
+            background-color:brown;
+            width:50px;
+            height:20px;
+        }
+
+        #btn:hover {
+            background-color:rgb(72, 4, 4);
+            color:white;
+            transition:0.3s;
+            width:60px;
+            height: 25px;
+        }
+
+        button#backbtn{
+        border: solid;
+        border: rgb(255, 166, 71);
+        display: inline-block;
+        padding: 14px 30px;
+        font-size: 19px;
+        color: black;
+        text-align: center;
+        background-color: white;
+        cursor: pointer;
+        margin-top: 2px;
+        border-radius: 25px;
+        transition: 0.3s;
+        }
+        button#but1{
+        color:brown;
+        background-color:moccasin;
+        transition:0.5s;
+        border-radius:5px;
+        }
+        button#but1:hover{
+        color:moccasin;
+        background-color:brown;
+        }
+    </style>
+
+    <body>
+        <div>
+            <button id = "but1" onclick="window.location.href='http://localhost:8888/Category';">BACK</button>
+        </div>
+
+        <br><br>
+        <div id="full1">
+            <div id="div1" style="padding:100 px;float:left; width:200px;">
+                <div style="text-align: center;">
+        <img src="/subcat/pics/spinach.JPG" height=150 width=150>
+                </div>
+            <p id="detail">Spinach</p>
+            <p id="detail"> Rs. 12 (per bunch)</p>
+            <p style="text-align:center">
+                <input type="number" id="f01" name="quantity" min="1" max="5" placeholder="0">
+                <script>
+                    function myFunction() {
+                    var input = document.getElementById('f01');
+                    console.log(input.value);}
+                    </script>
+                <button id="btn" onclick="myFunction()">Add</button>
+            <br>
+            </div>
+        <div id="div2" style="padding:100 px;float:left; width:200px;">
+            <div style="text-align: center;">
+        <img src="/subcat/pics/tomato.png" height=150 width=150/>
+    </div>
+            <p id="detail">Tomato</p>
+            <p id="detail"> Rs. 18 (per kilo)</p>
+            <p style="text-align:center">
+                <input type="number" id="f02" name="quantity" min="1" max="5" placeholder="0">
+                <script>
+                    function myFunction() {
+                    var input = document.getElementById('f02');
+                    console.log(input.value);}
+                    </script>
+                <button id="btn" onclick="myFunction()">Add</button>
+            </p>
+            </div>
+        <div id="div3" style="padding:100 px;float:left; width:200px;">
+            <div style="text-align: center;">
+        <img src="/subcat/pics/mushroom.JPG" height=150 width=150/>
+    </div>
+        <p id="detail">Mushroom</p>
+        <p id="detail"> Rs. 60 (per box)</p>
+        <p style="text-align:center">
+            <input type="number" id="f03" name="quantity" min="1" max="5" placeholder="0">
+                <script>
+                    function myFunction() {
+                    var input = document.getElementById('f03');
+                    console.log(input.value);}
+                    </script>
+                <button id="btn" onclick="myFunction()">Add</button>
+            <br>
+            </p>
+            </div>
+            <div id="div1" style="padding:100 px;float:left; width:200px;">
+                <div style="text-align: center;">
+        <img src="/subcat/pics/curryleaf.JPG" height=150 width=150>
+                </div>
+            <p id="detail">Curry Leaf</p>
+            <p id="detail"> Rs. 20 (100 gm)</p>
+            <p style="text-align:center">
+                <input type="number" id="f04" name="quantity" min="1" max="5" placeholder="0">
+                <script>
+                    function myFunction() {
+                    var input = document.getElementById('f04');
+                    console.log(input.value);}
+                    </script>
+                <button id="btn" onclick="myFunction()">Add</button>
+            <br>
+            </div>
+            <div id="div1" style="padding:100 px;float:left; width:200px;">
+                <div style="text-align: center;">
+        <img src="/subcat/pics/cauliflower.JPG" height=150 width=150>
+                </div>
+            <p id="detail">Cauliflower</p>
+            <p id="detail"> Rs. 20 (per piece)</p>
+            <p style="text-align:center">
+                <input type="number" id="f05" name="quantity" min="1" max="5" placeholder="0">
+                <script>
+                    function myFunction() {
+                    var input = document.getElementById('f05');
+                    console.log(input.value);}
+                    </script>
+                <button id="btn" onclick="myFunction()">Add</button>
+            <br>
+            </div>
+            <div id="div1" style="padding:100 px;float:left; width:200px;">
+                <div style="text-align: center;">
+        <img src="/subcat/pics/onion.JPG" height=150 width=150>
+                </div>
+            <p id="detail">Onion</p>
+            <p id="detail"> Rs. 30 (per kilo)</p>
+            <p style="text-align:center">
+                <input type="number" id="f06" name="quantity" min="1" max="5" placeholder="0">
+                <script>
+                    function myFunction() {
+                    var input = document.getElementById('f06');
+                    console.log(input.value);}
+                    </script>
+                <button id="btn" onclick="myFunction()">Add</button>
+            <br>
+            </div>
+            </div>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <div id="full2">
+                <div id="div1" style="padding:100 px;float:left; width:200px;">
+                    <div style="text-align: center;">
+            <img src="/subcat/pics/apple.JPG" height=150 width=150>
+                    </div>
+                <p id="detail">Apple</p>
+                <p id="detail"> Rs. 70 (per kg)</p>
+                <p style="text-align:center">
+                    <input type="number" id="f07" name="quantity" min="1" max="5" placeholder="0">
+                    <script>
+                        function myFunction() {
+                        var input = document.getElementById('f07');
+                        console.log(input.value);}
+                        </script>
+                    <button id="btn" onclick="myFunction()">Add</button>
+                <br>
+                </div>
+            <div id="div2" style="padding:100 px;float:left; width:200px;">
+                <div style="text-align: center;">
+            <img src="/subcat/pics/banana.JPG" height=150 width=150/>
+        </div>
+                <p id="detail">Banana</p>
+                <p id="detail"> Rs. 50 (bunch of 4)</p>
+                <p style="text-align:center">
+                    <input type="number" id="f08" name="quantity" min="1" max="5" placeholder="0">
+                    <script>
+                        function myFunction() {
+                        var input = document.getElementById('f08');
+                        console.log(input.value);}
+                        </script>
+                    <button id="btn" onclick="myFunction()">Add</button>
+                </p>
+                </div>
+            <div id="div3" style="padding:100 px;float:left; width:200px;">
+                <div style="text-align: center;">
+            <img src="/subcat/pics/strawberry.JPG" height=150 width=150/>
+        </div>
+            <p id="detail">Strawberry</p>
+            <p id="detail"> Rs. 140 (per box)</p>
+            <p style="text-align:center">
+                <input type="number" id="f09" name="quantity" min="1" max="5" placeholder="0">
+                <script>
+                    function myFunction() {
+                    var input = document.getElementById('f09');
+                    console.log(input.value);}
+                    </script>
+                <button id="btn" onclick="myFunction()">Add</button>
+                <br>
+                </p>
+                </div>
+                <div id="div1" style="padding:100 px;float:left; width:200px;">
+                    <div style="text-align: center;">
+            <img src="/subcat/pics/orange.JPG" height=150 width=150>
+                    </div>
+                <p id="detail">Orange</p>
+                <p id="detail"> Rs. 190 (6 pcs)</p>
+                <p style="text-align:center">
+                    <input type="number" id="f010" name="quantity" min="1" max="5" placeholder="0">
+                    <script>
+                        function myFunction() {
+                        var input = document.getElementById('f010');
+                        console.log(input.value);}
+                        </script>
+                    <button id="btn" onclick="myFunction()">Add</button>
+                <br>
+                </div>
+                <div id="div1" style="padding:100 px;float:left; width:200px;">
+                    <div style="text-align: center;">
+            <img src="/subcat/pics/sugarcane.JPG" height=150 width=150>
+                    </div>
+                <p id="detail">Sugarcane</p>
+                <p id="detail"> Rs. 7 (per pc)</p>
+                <p style="text-align:center">
+                    <input type="number" id="f011" name="quantity" min="1" max="5" placeholder="0">
+                    <script>
+                        function myFunction() {
+                        var input = document.getElementById('f011');
+                        console.log(input.value);}
+                        </script>
+                    <button id="btn" onclick="myFunction()">Add</button>
+                <br>
+                </div>
+                <div id="div1" style="padding:100 px;float:left; width:200px;">
+                    <div style="text-align: center;">
+            <img src="/subcat/pics/guava.JPG" height=150 width=150>
+                    </div>
+                <p id="detail">Guava</p>
+                <p id="detail"> Rs. 75 (per kilo)</p>
+                <p style="text-align:center">
+                    <input type="number" id="f012" name="quantity" min="1" max="5" placeholder="0">
+                    <script>
+                        function myFunction() {
+                        var input = document.getElementById('f012');
+                        console.log(input.value);}
+                        </script>
+                    <button id="btn" onclick="myFunction()">Add</button>
+                <br>
+                </div>
+                </div>
+        
+    </body>
+      

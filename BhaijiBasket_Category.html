@@ -1,0 +1,212 @@
+<html>
+    <head>
+        <title>
+            Categories - BhaijiBasket
+        </title>
+        <link rel = "icon" href = "BBlogo.png">
+    </head>
+
+    <style>
+        .b1{
+            position: absolute;
+            left: 150px;
+            top: 15px;
+        }
+
+        .b_head{
+            border: solid;
+            border: rgb(255, 166, 71);
+            display: inline-block;
+            padding: 14px 25px;
+            font-size: 19px;
+            font-family: "Agency FB";
+            color: black;
+            text-align: center;
+            background-color: white;
+            cursor: pointer;
+            margin-top: 2px;
+            border-radius: 25px;
+            transition: 0.3s;
+        }
+
+        .b_head:hover{
+            border: white;
+            background-color: rgb(181, 96, 36);
+            transition: 0.3s;
+            color: whitesmoke;
+            border: solid;
+            border-color: rgb(88, 46, 0);
+        }
+
+        #bHome{
+            margin-left: 25px;
+            
+        }
+
+        #bAbout{
+            margin-left: 25px;
+        }
+
+        #bCart{
+            margin-left: 25px;
+        }
+
+        #bProfile{
+            margin-left: 630px;
+        }
+
+        #img1{
+            width: 120px; 
+            height: 85px;
+            position: absolute;
+            top: 5px;
+            left: 5px;
+        }
+
+        body{
+            background-image: url("woodbg.jpeg");
+        }
+
+        .categories{
+            position: absolute;
+            top: 150px;
+            left: 50px;
+            width: 1300px;
+            height: 550px;
+        }
+
+
+        #dairy{
+            border: solid;
+            border-color: moccasin;
+            border-radius: 10px;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 400px;
+            height: 240px; 
+        }
+
+        #fnv{
+            border: solid;
+            border-color: moccasin;
+            border-radius: 10px;
+            position: absolute;
+            top: 10px;
+            left: 450px;
+            width: 400px;
+            height: 240px; 
+        }
+
+        #meat{
+            border: solid;
+            border-color: moccasin;
+            border-radius: 10px;
+            position: absolute;
+            top: 10px;
+            left: 880px;
+            width: 400px;
+            height: 240px; 
+        }
+
+        #snacks{
+            border: solid;
+            border-color: moccasin;
+            border-radius: 10px;
+            position: absolute;
+            top: 290px;
+            left: 10px;
+            width: 400px;
+            height: 240px; 
+        }
+
+        #millet{
+            border: solid;
+            border-color: moccasin;
+            border-radius: 10px;
+            position: absolute;
+            top: 290px;
+            left: 450px;
+            width: 400px;
+            height: 240px; 
+        }
+
+        #cond{
+            border: solid;
+            border-color: moccasin;
+            border-radius: 10px;
+            position: absolute;
+            top: 290px;
+            left: 880px;
+            width: 400px;
+            height: 240px; 
+        }
+
+        .img2{
+            position: absolute;
+            top: 28px;
+            left: 4px;
+            width: 390px;
+            height: 200px;
+        }
+
+        .cathead{
+            color: white; 
+            font-size: 28; 
+            position: absolute; 
+        }
+        
+    </style>
+
+    <body>
+        <div class="b1">
+            <button class="b_head" id="bHome" onclick = "window.location.href = 'http://localhost:8888';">HOME</button>
+            <button onclick="window.location.href='http://localhost:8888/about';" class="b_head" id="bAbout">ABOUT US</button>
+            <button class="b_head" id="bCart" onclick = "window.location.href = 'http://localhost:8888/cart'">VIEW CART</button>
+            <!--<button class="b_head" id="bProfile">PROFILE</button>
+        -->
+        </div>
+            
+        <div>
+            <img id="img1" src="BBlogo.png" alt="Logo">
+        </div>
+
+
+        <div class="categories">
+            <div id="dairy" onclick="window.location.href='http://localhost:8888/category/dairy';">
+                <img class="img2" src="dairy.jpg">
+            </div>
+
+            <div id="fnv" onclick="window.location.href='http://localhost:8888/category/fruits';">
+                <img class="img2" src="fnv.jpg">
+            </div>
+
+            <div id="meat" onclick="window.location.href='http://localhost:8888/category/meat';">
+                <img class="img2" src="meat.jpg">
+            </div>
+
+            <div id="snacks" onclick="window.location.href = 'http://localhost:8888/category/snacks';">
+                <img class="img2" src="snacks.jpg">
+            </div>
+
+            <div id="millet" onclick="window.location.href = 'http://localhost:8888/category/millet';">
+                <img class="img2" src="millet.jpg">
+            </div>
+
+            <div id="cond" onclick="window.location.href = 'http://localhost:8888/category/cond';">
+                <img class="img2" src="cond2.jpg">
+            </div>
+
+            <div class="cathead" style="top: 8px; left: 173px; font-family:'Agency FB'">Dairy</div>
+            <div class="cathead" style="top: 8px; left: 533px;font-family:'Agency FB'">Fruits and Vegetables</div>
+            <div class="cathead" style="top: 8px; left: 1049px;font-family:'Agency FB';">Meat</div>
+            <div class="cathead" style="top: 288px; left: 167px;font-family:'Agency FB'">Snacks</div>
+            <div class="cathead" style="top: 288px; left: 613px;font-family:'Agency FB'">Millets</div>
+            <div class="cathead" style="top: 288px; left: 1013px;font-family:'Agency FB'">Condiments</div>
+
+        </div>
+
+        <div style="font-size: 55px; position:absolute; top:80px; left:580px; color: moccasin;font-family:'Agency FB'">Categories</div>
+    </body>
+
+</html> 

@@ -1,0 +1,125 @@
+<html>
+    <head>
+        <title>
+            About - BhaijiBasket
+        </title>
+        <link rel = "icon" href = "BBlogo.png">
+    </head>
+
+    <style>
+        body{
+            background-image: url("woodbg.jpeg");
+        }
+
+        .b1{
+            position: absolute;
+            left: 150px;
+            top: 15px;
+        }
+
+        .b_head{
+            border: solid;
+            border: rgb(255, 166, 71);
+            display: inline-block;
+            padding: 14px 25px;
+            font-size: 19px;
+            font-family: "Agency FB";
+            color: black;
+            text-align: center;
+            background-color: white;
+            cursor: pointer;
+            margin-top: 2px;
+            border-radius: 25px;
+            transition: 0.3s;
+        }
+
+        .b_head:hover{
+            border: white;
+            background-color: rgb(181, 96, 36);
+            transition: 0.3s;
+            color: whitesmoke;
+            border: solid;
+            border-color: rgb(88, 46, 0);
+        }
+
+        #bHome{
+            margin-left: 25px;
+            
+        }
+
+        #bCategory{
+            margin-left: 25px;
+        }
+
+        #bCart{
+            margin-left: 25px;
+        }
+
+        #bProfile{
+            margin-left: 630px;
+        }
+
+        #img1{
+            width: 120px; 
+            height: 85px;
+            position: absolute;
+            top: 5px;
+            left: 5px;
+        }
+
+        p#p1{
+        font-family:"Gabriola";
+        font-size:40px;
+        color:moccasin;
+        text-align:center;
+        //top:300px;
+        position:absolute;
+        top:100px;
+        //right:250px;
+        }
+
+        ::-webkit-scrollbar{
+        width:10px;
+        //background-color:transparent;
+        }
+
+        ::-webkit-scrollbar-track{
+        background:brown;
+        }
+
+        ::-webkit-scrollbar-thumb{
+        background:moccasin;
+        }
+
+        ::-webkit-scrollbar-thumb:hover{
+        background:chocolate;
+        }
+
+    </style>
+
+    <body>
+        <div class="b1">
+            
+            <button class="b_head" id="bHome" onclick = "window.location.href = 'http://localhost:8888';">HOME</button>
+            <button onclick="window.location.href='http://localhost:8888/category';" class="b_head" id="bCategory">CATEGORIES</button>
+            <button class="b_head" id="bCart" onclick = "window.location.href = 'http://localhost:8888/cart';">VIEW CART</button>
+            <!--<button class="b_head" id="bProfile">PROFILE</button>
+        -->
+        </div>
+            
+        <div>
+            <img id="img1" src="BBlogo.png" alt="Logo">
+        </div>
+
+        <p id = "p1">
+            BhaijiBasket is a simple, easy to use app designed for you to shop with ease and comfort. <br><br>We are three aspiring engineers and we wanted to come up with a product<br>
+            that contributes to the simplicity of society. So we have designed BhaijiBasket, tailored for your comfort.<br><br>
+            Shop food from restaurants, fast food chains, or even groceries from stores, by simply sitting in a chair and adding items to a cart. Yes, it is that easy.
+            <br><br>
+            Our team consists of three people -<br>
+            Aniketh<br>
+            Animesh<br>
+            Anoushka<br>
+        </p>
+    </body>
+</html>

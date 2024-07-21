@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel = "icon" href = "BBlogo.png">
+    <title>Login - BhaijiBasket</title>
+
+    <script crossdomain src="https://unpkg.com/react@16/umd/react.development.js"> </script>
+    <script crossdomain src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"> </script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"> </script>
+
+    <style>
+        body{
+        background-image:url("signupimg.jpeg");
+        }
+
+        input#ip1{
+        position:absolute;
+        right:600px;
+        width:400px;
+        height:40px;
+        bottom:500px;
+        font-family:"Agency FB";
+        font-size:40px;
+        text-align:center;
+        color:SaddleBrown;
+        background-color:peachpuff;
+        border:solid;
+        border-radius:50px;
+        }
+
+        input#ip2{
+        position:absolute;
+        right:600px;
+        width:400px;
+        height:40px;
+        bottom:400px;
+        font-family:"Agency FB";
+        font-size:40px;
+        text-align:center;
+        color:SaddleBrown;
+        background-color:peachpuff;
+        border:solid;
+        border-radius:50px;
+        }
+
+        input#ip3{
+        position:absolute;
+        right:700px;
+        width:200px;
+        height:40px;
+        bottom:300px;
+        font-family:"Agency FB";
+        font-size:30px;
+        border-radius:50px;
+        color:brown;
+        background-color:peachpuff;
+        border:none;
+        }
+
+        input#ip3:hover{
+        color:peachpuff;
+        background-color:brown;
+        transition:1s;
+        }
+
+        ::placeholder{
+        color:chocolate;
+        }
+
+        img#logo{
+        position:absolute;
+        width:300px;
+        &:hover{
+        width:400px;
+        }
+        }
+    </style>
+</head>
+<body>
+<form action = "/log_in" method = post>
+    <input id = "ip1" name = "e" type = "text" placeholder="EMAIL">
+    <input id = "ip2" name  = "p" type = "password" placeholder="PASSWORD">
+    <input id = "ip3" type = "submit" value = "LOGIN">
+</form>
+
+<img id = "logo" src = "BBlogo.png" onclick = "window.location.href = 'http://localhost:8888';">
+<script type = "text/babel">
+    var perf =require('./BhaijiBasket_login.html');
+
+    class Index extends React.Component {
+    render(){
+      return (
+         <iframe src={perf }></iframe>
+      );
+   }
+}
+export default Index;
+</script>
+</body>
+</html>
